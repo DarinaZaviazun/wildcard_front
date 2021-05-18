@@ -1,0 +1,115 @@
+.words-edition {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.words-edition a {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    border-radius: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+.words-edition a div {
+    background-color: #EFEFEF;
+}
+
+.words-edition a:hover {
+    background-color: #dee3e4;
+}
+.words-edition a:after {
+    content: "";
+}
+.allWordsHereTable {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.activeBut {
+    background-color: yellow;
+}
+
+.div-head-for-words {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div-for-table{
+    width: 100%;
+    display: flex;
+}
+
+.div-head-for-words-name {
+    width: 10%;
+}
+
+.div-head-for-words-approved {
+    width: 4%;
+}
+
+.div-head-for-words-partOS {
+    width: 8%;
+}
+
+.div-head-for-words-description {
+    width: 15%;
+}
+
+.div-head-for-words-example {
+    width: 20%;
+}
+
+.div-head-for-words-translationRu {
+    width: 15%;
+}
+
+.div-head-for-words-translationUa {
+    width: 15%;
+}
+
+.div-head-for-words-addtoLib {
+    width: 8%;
+}
+
+.div-head-for-words-submit {
+    width: 5%;
+}
+
+.div-head-for-words-delete {
+    width: 5%;
+}
+
+.searchWords {
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    margin: 0 0 20px 20px;
+}
+
+.alphabet {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.alphabet-div{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.alphabet-div:hover {
+    cursor: pointer;
+}

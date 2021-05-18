@@ -1,0 +1,30 @@
+.admin-users-butt {
+    display: flex;
+}
+
+.admin-users-butt a {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    border-radius: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.admin-users-butt a div {
+    background-color: #EFEFEF;
+}
+
+.admin-users-butt a:hover {
+    background-color: #dee3e4;
+}
+
+.admin-users-butt a:after {
+    content: "";
+}
+
+.activeBut {
+    background-color: yellow;
+}

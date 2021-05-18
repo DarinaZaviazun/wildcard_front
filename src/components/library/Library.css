@@ -1,0 +1,57 @@
+.div-forcard {
+    height: 400px;
+    width: 500px;
+    align-self: center;
+}
+
+.div-cardspace {
+    display: flex;
+
+}
+
+.div-cardbutt {
+    display: flex;
+    justify-content: space-around;
+}
+
+.collapsible {
+    background-color: burlywood;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    background-color: #f1f1f1;
+}
+
+.content_show {
+    padding: 0 18px;
+    max-height: 100%;
+    background-color: #f1f1f1;
+}

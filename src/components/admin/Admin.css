@@ -1,0 +1,85 @@
+.admin-div {
+    width: 100%;
+}
+
+.admin-panel {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.forWords {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height ease-in-out;
+}
+
+.forWords_show {
+    max-height: 100%;
+}
+
+.forUsers {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height ease-in-out;
+}
+
+.forUsers_show {
+    max-height: 100%;
+}
+
+.forLibraries {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height ease-in-out;
+}
+
+.forLibraries_show {
+    max-height: 100%;
+}
+
+.container-for-edition {
+    height: 100%;
+    width: 100%;
+}
+
+.admin-menu {
+    display: flex;
+}
+
+.admin-menu a {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    border-radius: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.admin-menu a div {
+    background-color: #EFEFEF;
+}
+
+.admin-menu a:hover {
+    background-color: #dee3e4;
+}
+
+.admin-menu a:after {
+    content: "";
+}
+
+.activeBut {
+    background-color: yellow;
+}
+
+.admin-child {
+    height: calc(100% - 100px);
+    width: 100%;
+    display: flex;
+}
+
+

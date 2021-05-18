@@ -1,0 +1,21 @@
+.page-layout {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.pl-header{
+    height: 50px;
+}
+
+.pl-child {
+    display: flex;
+    justify-content: center;
+    height: calc(100% - 100px);
+    width: 100%;
+ }
+
+.pl-footer{
+    height: 50px;
+}

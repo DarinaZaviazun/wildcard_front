@@ -1,0 +1,26 @@
+.words-edition  a {
+    border: none;
+    border-bottom: 1px solid grey;
+    border-right: 1px solid grey;
+    width: 200px;
+    height: 50px;
+    border-radius: 0;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.words-edition a div {
+    background-color: #EFEFEF;
+}
+
+.words-edition a:hover {
+    background-color: #dee3e4;
+}
+
+.words-edition a:after {
+    content: "";
+}
+
+.activeBut {
+    background-color: yellow;
+}
